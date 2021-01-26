@@ -9,20 +9,21 @@ Question
   	  2.5 for marks less than equal to 60, print below par.     
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(int argc, char**argv){
-    int marks;
-    cin>>marks;
-    
-    if(marks>90) 
-      cout<<"excellent"<<endl;
-    else if(marks>80)
-      cout<<"good"<<endl;
-    else if(marks>70)
-      cout<<"fair"<<endl;
-    else if (marks>60)
-      cout<<"meets expectations"<<endl;
-    else
-      cout<<"below par"<<endl;
+int main(int argc, char **argv)
+{
+  int marks;
+  cin >> marks;
+
+  if (marks > 90)
+    cout << "excellent" << endl;
+  else if (marks > 80)
+    cout << "good" << endl;
+  else if (marks > 70)
+    cout << "fair" << endl;
+  else if (marks > 60)
+    cout << "meets expectations" << endl;
+  else
+    cout << "below par" << endl;
 }
